@@ -1,0 +1,126 @@
+export const IMAGES = {
+  heroMain: 'https://images.pexels.com/photos/35894710/pexels-photo-35894710.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heroCar2: 'https://images.pexels.com/photos/35333681/pexels-photo-35333681.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heroNight: 'https://images.pexels.com/photos/12689717/pexels-photo-12689717.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  drift1: 'https://images.pexels.com/photos/35415197/pexels-photo-35415197.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  drift2: 'https://images.pexels.com/photos/19298340/pexels-photo-19298340.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  drift3: 'https://images.pexels.com/photos/34304200/pexels-photo-34304200.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  drift4: 'https://images.pexels.com/photos/37199685/pexels-photo-37199685.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  drift5: 'https://images.pexels.com/photos/9867019/pexels-photo-9867019.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  engine1: 'https://images.pexels.com/photos/159293/car-engine-motor-clean-customized-159293.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  exhaust1: 'https://images.pexels.com/photos/10827691/pexels-photo-10827691.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  exhaust2: 'https://images.pexels.com/photos/32662276/pexels-photo-32662276.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  trackAerial: 'https://images.pexels.com/photos/9284135/pexels-photo-9284135.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  trackCurve: 'https://images.pexels.com/photos/18121618/pexels-photo-18121618.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  carMeet: 'https://images.pexels.com/photos/16896020/pexels-photo-16896020.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  crowdRace: 'https://images.pexels.com/photos/8660933/pexels-photo-8660933.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  orangeDrift: 'https://images.pexels.com/photos/36633270/pexels-photo-36633270.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  nightCity: 'https://images.pexels.com/photos/17716166/pexels-photo-17716166.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  carPortrait1: 'https://images.pexels.com/photos/9762341/pexels-photo-9762341.jpeg?auto=compress&cs=tinysrgb&w=800',
+  carPortrait2: 'https://images.pexels.com/photos/8012511/pexels-photo-8012511.jpeg?auto=compress&cs=tinysrgb&w=800',
+  carPortrait3: 'https://images.pexels.com/photos/13712026/pexels-photo-13712026.jpeg?auto=compress&cs=tinysrgb&w=800',
+  carMeet2: 'https://images.pexels.com/photos/9827698/pexels-photo-9827698.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  driftColorful: 'https://images.pexels.com/photos/37154995/pexels-photo-37154995.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  greenDrift: 'https://images.pexels.com/photos/15486731/pexels-photo-15486731.jpeg?auto=compress&cs=tinysrgb&w=1920',
+};
+
+export const RACERS = [
+  {
+    name: 'KAI "GHOST" TANAKA',
+    alias: 'Ghost',
+    car: 'Nissan GT-R R35',
+    power: '1200 HP',
+    wins: 47,
+    country: 'Japan',
+    image: IMAGES.carPortrait1,
+    accent: 'primary',
+    quote: 'You don\'t win by being fast. You win by being gone.',
+  },
+  {
+    name: 'MARCUS "BLAZE" KOSTER',
+    alias: 'Blaze',
+    car: 'Toyota Supra MK4',
+    power: '980 HP',
+    wins: 39,
+    country: 'Germany',
+    image: IMAGES.carPortrait2,
+    accent: 'accent',
+    quote: 'The line between control and chaos is where I live.',
+  },
+  {
+    name: 'ELIANA "VOLT" RIVERA',
+    alias: 'Volt',
+    car: 'Mazda RX-7 FD',
+    power: '850 HP',
+    wins: 52,
+    country: 'Spain',
+    image: IMAGES.carPortrait3,
+    accent: 'warning',
+    quote: 'Rotary engines don\'t roar — they scream.',
+  },
+];
+
+export const CATEGORIES = [
+  {
+    name: 'STREET SPRINT',
+    tag: '1/4 MILE DRAG',
+    description: 'Pure acceleration. Two cars, one light, quarter-mile glory. No turns, no excuses.',
+    slots: 32,
+    image: IMAGES.nightCity,
+    icon: 'Gauge',
+  },
+  {
+    name: 'CANYON DRIFT',
+    tag: 'TOUGE BATTLE',
+    description: 'Tandem drift through tight mountain passes. Style, angle, and proximity score the win.',
+    slots: 16,
+    image: IMAGES.drift2,
+    icon: 'Wind',
+  },
+  {
+    name: 'MIDNIGHT CIRCUIT',
+    tag: 'TIME ATTACK',
+    description: 'Closed street circuit, 3 laps, fastest time wins. Every apex, every braking zone matters.',
+    slots: 24,
+    image: IMAGES.trackAerial,
+    icon: 'Timer',
+  },
+  {
+    name: 'KING OF THE STREET',
+    tag: 'ELITE INVITATIONAL',
+    description: 'Top 8 racers across all categories. Head-to-head, elimination, one champion crowned.',
+    slots: 8,
+    image: IMAGES.drift4,
+    icon: 'Crown',
+  },
+];
+
+export const SCHEDULE = [
+  { time: '18:00', title: 'Gates Open & Tech Inspection', day: 'FRI' },
+  { time: '20:00', title: 'Qualifying Rounds — Street Sprint', day: 'FRI' },
+  { time: '22:00', title: 'Opening Ceremony & Driver Parade', day: 'FRI' },
+  { time: '14:00', title: 'Canyon Drift Practice Session', day: 'SAT' },
+  { time: '17:00', title: 'Canyon Drift Main Event', day: 'SAT' },
+  { time: '21:00', title: 'Midnight Circuit Time Attack', day: 'SAT' },
+  { time: '16:00', title: 'King of the Street Quarter-Finals', day: 'SUN' },
+  { time: '20:00', title: 'Grand Finale & Championship Crowning', day: 'SUN' },
+  { time: '23:00', title: 'Afterparty & Awards Ceremony', day: 'SUN' },
+];
+
+export const STATS = [
+  { label: 'REGISTERED DRIVERS', value: '127' },
+  { label: 'TOTAL HORSEPOWER', value: '94K' },
+  { label: 'PRIZE POOL', value: '$250K' },
+  { label: 'ATTENDEES', value: '15K+' },
+];
+
+export const GALLERY = [
+  { src: IMAGES.drift1, label: 'TIRE SMOKE — CANYON DRIFT', size: 'lg' },
+  { src: IMAGES.orangeDrift, label: 'APEX HUNTER — MIDNIGHT CIRCUIT', size: 'md' },
+  { src: IMAGES.engine1, label: 'BUILT NOT BOUGHT — ENGINE BAY', size: 'sm' },
+  { src: IMAGES.drift3, label: 'CHROMOLYSIS — TOUGE BATTLE', size: 'md' },
+  { src: IMAGES.crowdRace, label: 'THE CROWD ROARS — STREET SPRINT', size: 'lg' },
+  { src: IMAGES.exhaust1, label: 'DUAL EXHAUST — STREET SPEC', size: 'sm' },
+  { src: IMAGES.driftColorful, label: 'NEON LIVERY — GRID UP', size: 'md' },
+  { src: IMAGES.trackCurve, label: 'THE LINE — CIRCUIT FLOW', size: 'md' },
+];
